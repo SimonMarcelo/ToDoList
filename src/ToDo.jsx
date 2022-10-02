@@ -4,22 +4,22 @@ import Formulario from "./ToDoApp_Form";
 import SinTareas from "./ToDoApp_SinTareas";
 import Tarea from "./ToDoApp_Tarea";
 
-let tareas = [
+let tareas = [];
 	{
-		id: 0,
-		checked: false,
-		titulo: "Estudiar React",
-		descripcion:
-			"Estudiar y practicar cómo armar diferentes componentes y comunicarlos.",
-	},
-	{
-		id: 2,
-		checked: false,
-		titulo: "Armar listado",
-		descripcion:
-			"Pensar en las actividades para armar el listado y después escribirlas en el archivo.",
+	// 	id: 0,
+	// 	checked: false,
+	// 	titulo: "Estudiar React",
+	// 	descripcion:
+	// 		"Estudiar y practicar cómo armar diferentes componentes y comunicarlos.",
+	// },
+	// {
+	// 	id: 2,
+	// 	checked: false,
+	// 	titulo: "Armar listado",
+	// 	descripcion:
+	// 		"Pensar en las actividades para armar el listado y después escribirlas en el archivo.",
 	}
-];
+
 let id = 10;
 
 const ToDo = () => {
