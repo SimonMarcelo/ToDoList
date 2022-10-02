@@ -18,7 +18,7 @@ let tareas = [];
 	// 	titulo: "Armar listado",
 	// 	descripcion:
 	// 		"Pensar en las actividades para armar el listado y después escribirlas en el archivo.",
-	}
+	} 
 
 let id = 10;
 
