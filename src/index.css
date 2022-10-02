@@ -17,7 +17,7 @@ body{
 }
 
 .nuevaTarea {
-  margin: 0 auto;
+  margin: 0 auto 1.5rem;
   padding: 0.3rem 1rem;
   border: 1px solid black;
   border-radius: 10px;
@@ -101,12 +101,11 @@ h3, p {
   width: 50vw;
   display: flex;
   justify-content: center;
-  align-content: center;
-  padding: 1.5rem;
+  padding: 1rem 0.5rem;
   border: 1px solid black;
   border-radius: 10px;
   box-shadow: 2px 2px 2px black;
-  margin-top: 1.5rem;
+  margin: 1.5rem auto 0;
 }
 
 .sinTareas__texto {
