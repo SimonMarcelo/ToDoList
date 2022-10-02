@@ -7,12 +7,6 @@ let tareas = [
 	{
 		id: 0,
 		checked: false,
-		titulo: "Lavar ropa",
-		descripcion: "Llevar a lavar la ropa al lavadero.",
-	},
-	{
-		id: 1,
-		checked: false,
 		titulo: "Estudiar React",
 		descripcion:
 			"Estudiar y practicar cómo armar diferentes componentes y comunicarlos.",
@@ -23,7 +17,7 @@ let tareas = [
 		titulo: "Armar listado",
 		descripcion:
 			"Pensar en las actividades para armar el listado y después escribirlas en el archivo.",
-	},
+	}
 ];
 let id = 10;
 
