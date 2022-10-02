@@ -10,6 +10,7 @@ const Formulario = (props) => {
 		className="tituloTarea"
 		type="text"
 		name="titulo"
+		required
 		onChange={props.handleChange}
 		/>
 	<input
@@ -17,6 +18,7 @@ const Formulario = (props) => {
 		className="descripcionTarea"
 		type="text"
 		name="descripcion"
+		required
 		onChange={props.handleChange}
 		/>
 	<button className="botonSubmit" type="submit">
