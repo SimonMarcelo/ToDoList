@@ -16,7 +16,7 @@ const Tarea = (props) => {
 				<BsFillTrashFill />
 			</div>
 		</div>
-	);
-};
 
+)};
+		
 export default Tarea;

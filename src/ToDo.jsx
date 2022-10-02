@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { GoTasklist } from "react-icons/go";
 import Formulario from "./ToDoApp_Form";
+import SinTareas from "./ToDoApp_SinTareas";
 import Tarea from "./ToDoApp_Tarea";
 
 let tareas = [
@@ -56,6 +57,7 @@ const ToDo = () => {
 		const tareasFiltradas = tareas.filter((tarea) => tarea.id !== idToDelete);
 		tareas = tareasFiltradas;
 		setAuxiliar(auxiliar + 1);
+		console.log(tareas)
 		// }, 2000);
 	};
 
@@ -70,12 +72,19 @@ const ToDo = () => {
 			</div>
 			<h3>Lista de tareas: </h3>
 			<div className="tabla">
-				{tareas.map((tarea, id) => (
-					<Tarea tarea={tarea} id={id} handleDeleteItem={handleDeleteItem} />
-				))}
+				{
+					tareas.map((tarea, id) => (
+					<Tarea tarea={tarea} tareas={tareas} id={id} handleDeleteItem={handleDeleteItem} />
+					))
+				}
 			</div>
+			<SinTareas
+			id={id}
+			tareasLength={tareas.length}
+			/>
 		</div>
 	);
+	
 };
 
 export default ToDo;
