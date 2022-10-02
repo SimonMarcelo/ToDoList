@@ -96,6 +96,10 @@ h3, p {
   margin-block-end: 0.5rem;
 }
 
+h3 {
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
 .sinTareas__div {
   width: 50vh;
   width: 50vw;
